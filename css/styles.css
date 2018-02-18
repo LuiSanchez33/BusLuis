@@ -1,0 +1,147 @@
+h1{
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 4px;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: sans-serif;
+}
+
+h2{
+  background-color: #1b3f6e;
+  color:white;
+}
+
+textarea{
+  background-color: #1b3f6e;
+  color:white;
+}
+
+a{
+  font-size: 20px;
+  line-height: 40px;
+  font-family: sans-serif;
+  padding-right: 60px;
+}
+
+svg {
+	border: 1px solid blue;
+}
+
+.form{
+  flex: 1;
+}
+
+.grid{
+  margin: 20px;
+  flex: 1;
+}
+
+.logo{
+  margin: 20px;
+  height: 66px;
+  width: 188px;
+  background-image: url(../img/accordo.jpg);
+  background-repeat: no-repeat;
+  flex:3;
+  
+}
+
+.boxlogo{
+  background-color:white;
+}
+
+.testing{
+  flex:1;
+  background-color: #1b3f6e;
+  color:white;
+}
+
+
+.mocha{
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+  background-color: #1b3f6e;
+  height: 113px;
+  width: 180px;
+  background-image: url(../img/mocha.png);
+  background-repeat: no-repeat;
+  
+  flex:3;
+}
+
+.medio{
+  background-color: #1b3f6e;
+  color:white;
+  flex:6;
+}
+
+
+.command-button{
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 2px;
+  border: none;
+  font-size: 1em;
+  color:white;
+  background: #101010;
+}
+
+.header {
+  
+  background-color: #101010;
+  color: white;
+  display: flex;
+}
+
+.foot {
+  margin: 10px;
+	background-color: #1b3f6e;
+	color: white;
+}
+
+
+
+.example{
+  border:1px solid #000;
+  margin: auto;
+  position: relative;
+  left: 100px;
+  bottom: 20px;
+  flex: 1;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.headExample1{
+  margin: auto;
+  background-color:#1b3f6e;
+  height: 200px;
+  
+}
+
+.headExample2{
+  margin: auto;
+  
+  
+  color: #ffffff;
+  color:#1b3f6e;
+}
+
+.boxgrid{
+  
+  margin: auto;
+  flex: 3;
+  text-align: center;
+  
+
+}
+
+.box { 
+  color: white;
+  display: flex;
+  border-color: black;
+}
+

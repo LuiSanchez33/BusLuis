@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+  <script src="main.js"></script>
+  <script src="js/class/grid.js"></script>
+  <script src="js/class/bus.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body onload="main()">
+  <row class="header">
+    <div class=boxlogo>
+      <div class="logo"></div>
+    </div>
+
+    <div class="medio">
+      <h1 class="w100 text-center">Bus in Carpark Simulator</h1>
+    </div>
+    <div class="mocha"></div>
+    <div class="testing">
+      <a class="h1" href="tests/test.html" target="_blank">Unit Testing</a>
+    </div>
+  </row>
+  <row class="box">
+
+    <div class="example">
+
+
+      <div class="headExample">
+        <div>
+          <h2>Example : Number 8</h2>
+        </div>
+        <form enctype="multipart/form-data">
+          <input id="upload" type=file accept="text/html" name="files[]" size=30>
+        </form>
+
+        <textarea class="form-control" rows=10 cols=60 id="txtBus"></textarea>
+      </div>
+      <div class="headExample2">
+        <input type="button" class="command-button" onclick="exampleBus()" size=30 value="Execute">
+      </div>
+
+    </div>
+    <div class="boxgrid">
+      <div class="grid"></div>
+      <form class="form">
+        <input type="text" id="txtCommand" placeholder="Enter command here">
+        <input type="button" id="btnCommand" class="command-button" value="Execute" onClick="readKey()" />
+        <div id="status "></div>
+      </form>
+
+    </div>
+  </row>
+  <footer class="foot ">
+    <p class="w100 text-center ">Posted by: Luis Sánchez</p>
+    <p class="w100 text-center ">Contact information:
+      <a href="mailto:lsanchezalzamora@gmail.com ">
+        lsanchezalzamora@gmail.com</a>
+    </p>
+  </footer>
+
+
+  <script>
+
+  </script>
+</body>
+
+</html>
